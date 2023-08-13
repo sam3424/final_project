@@ -1,0 +1,90 @@
+.addCard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.addButton{
+    background-color: #cf245f;
+        background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899)
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.addCardImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-card-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-card-title h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.add-card-title h3 {
+    font-size: 16px;
+    color: #666;
+}
+
+.modal-footer {
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.tosterImg{
+    width: 50px;
+    height: 40px;
+}
+.Info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 200px;
+    
+    background-color: #cf245f;
+        background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+}
+.titleInfo{
+   
+                width: 100%;
+           font-size: 16px;
+                text-align: center;
+}
+.priceToaster{
+    color:#fff;
+        font-weight: 60px;
+        font-size: 2.9dvh;
+        border-radius: 4px;
+        position: absolute;
+           top:50%;
+            
+      
+}
+.add-button{
+    padding: 1px;
+    top: 50px;
+}
